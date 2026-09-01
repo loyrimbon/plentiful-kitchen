@@ -2,17 +2,17 @@ const features = [
   {
     title: 'Real Ingredients Always',
     description:
-      'Every meal starts with organic, non-GMO ingredients. We cook exclusively with avocado oil and cold-pressed extra virgin olive oil. No seed oils, ever. Meats are grass-fed & finished, fish is wild-caught, produce from local farms.',
+      'Chaque repas commence avec des ingrédients organiques et de saisons. Nous cuisons exclusivement avec de l\'huile d\'avocat et de l\'huile d\'olive extra vierge pressée à froid. BLABLABLABLA Pas d\'huiles de semences, jamais. Les viandes sont grasses & finies, les poissons sont capturés en mer, les produits locaux.',
   },
   {
-    title: 'Glass only. No plastic anywhere',
+    title: 'Seulement des contenants en verre. Pas de plastique nulle part',
     description:
-      'Heating food in plastic releases microplastics. We deliver in reusable glass containers because it is better for your hormones, better for the planet, and the food simply tastes better.',
+      'Cuisiner dans du plastique libère des microplastiques. Nous livrons dans des contenants en verre réutilisables car c\'est mieux pour vos hormones, mieux pour la planète, et la nourriture a simplement mieux goût.',
   },
   {
-    title: 'Nourishing by design',
+    title: 'Nourriture nutritive par définition',
     description:
-      'Every meal is built around real, nutrient-dense ingredients that support your energy and keep you and your family feeling their best. Clean food that is also delicious.',
+      'Chaque repas est construit autour d\'ingrédients réels, nutritifs et denses qui soutiennent votre énergie et vous gardent en forme. Une nourriture propre et délicieuse.',
   },
 ]
 
@@ -22,9 +22,9 @@ export default function WhyUs() {
       <div className="container-narrow">
         <div className="text-center mb-16">
           <p className="text-sage-600 font-medium tracking-widest uppercase text-xs mb-3">Our Difference</p>
-          <h2 className="section-title">Why Plentiful Kitchen</h2>
+          <h2 className="section-title">Pourquoi Souad Hezzam</h2>
           <p className="section-subtitle mx-auto">
-            Nourishing meals that keep you going
+            Repas nutritifs qui te permettent d'avancer
           </p>
         </div>
 

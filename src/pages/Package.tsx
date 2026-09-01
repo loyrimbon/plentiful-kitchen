@@ -30,8 +30,8 @@ export default function Package() {
           </p>
           <h1 className="section-title mb-4">Choose your plan</h1>
           <p className="section-subtitle mx-auto">
-            Answer three quick questions and we will find the right plan for you.
-            Subscribe and save $10 every week — up to $520 per year.
+            Réponds à trois questions rapides et nous trouverons la bonne formule pour toi.
+            Abonne-toi et économise 10€ chaque semaine — jusqu\'à 520€ par an.
           </p>
         </div>
       </section>
@@ -63,15 +63,15 @@ export default function Package() {
                       : 'border-primary-200 hover:border-sage-400'
                   }`}
                 >
-                  <p className="font-medium text-charcoal">A family or group</p>
-                  <p className="text-sm text-charcoal/60 mt-1">Large, 3 to 4 people</p>
+                  <p className="font-medium text-charcoal">Une famille ou un groupe</p>
+                  <p className="text-sm text-charcoal/60 mt-1">Grand, 3 à 4 personnes</p>
                 </button>
               </div>
             </div>
 
             {/* Question 2 */}
             <div>
-              <h3 className="font-serif text-xl mb-4">2. How many meals would you like this week?</h3>
+              <h3 className="font-serif text-xl mb-4">2. Combien de repas aimerais-tu cette semaine ?</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 <button
                   onClick={() => setMeals(3)}
@@ -81,8 +81,8 @@ export default function Package() {
                       : 'border-primary-200 hover:border-sage-400'
                   }`}
                 >
-                  <p className="font-medium text-charcoal">Three meals</p>
-                  <p className="text-sm text-charcoal/60 mt-1">A few good dinners</p>
+                  <p className="font-medium text-charcoal">Trois repas</p>
+                  <p className="text-sm text-charcoal/60 mt-1">Quelques bons dîners</p>
                 </button>
                 <button
                   onClick={() => setMeals(4)}
@@ -92,15 +92,15 @@ export default function Package() {
                       : 'border-primary-200 hover:border-sage-400'
                   }`}
                 >
-                  <p className="font-medium text-charcoal">Four meals</p>
-                  <p className="text-sm text-charcoal/60 mt-1">Most of my week covered</p>
+                  <p className="font-medium text-charcoal">Quatre repas</p>
+                  <p className="text-sm text-charcoal/60 mt-1">La plupart de ma semaine couverte</p>
                 </button>
               </div>
             </div>
 
             {/* Question 3 */}
             <div>
-              <h3 className="font-serif text-xl mb-4">3. What does your ideal plate look like?</h3>
+              <h3 className="font-serif text-xl mb-4">3. Quel serait ton plat idéal ?</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 <button
                   onClick={() => setStyle('mix')}
@@ -110,8 +110,8 @@ export default function Package() {
                       : 'border-primary-200 hover:border-sage-400'
                   }`}
                 >
-                  <p className="font-medium text-charcoal">A mix of everything</p>
-                  <p className="text-sm text-charcoal/60 mt-1">Animal protein and vegetarian</p>
+                  <p className="font-medium text-charcoal">Un mélange de tout</p>
+                  <p className="text-sm text-charcoal/60 mt-1">Protein animal et végétarien</p>
                 </button>
                 <button
                   onClick={() => setStyle('protein')}
@@ -121,8 +121,8 @@ export default function Package() {
                       : 'border-primary-200 hover:border-sage-400'
                   }`}
                 >
-                  <p className="font-medium text-charcoal">Protein forward</p>
-                  <p className="text-sm text-charcoal/60 mt-1">All mains are meat, poultry, or seafood</p>
+                  <p className="font-medium text-charcoal">Protein en avant</p>
+                  <p className="text-sm text-charcoal/60 mt-1">Tous les plats sont de la viande, du poulet, ou du poisson</p>
                 </button>
               </div>
             </div>
@@ -131,32 +131,32 @@ export default function Package() {
           {/* Result */}
           {isComplete && price && (
             <div className="mt-14 p-8 bg-sage-50 rounded-3xl border border-sage-200">
-              <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">Your plan</h3>
+              <h3 className="font-serif text-2xl text-charcoal mb-6 text-center">Ta formule</h3>
               <div className="grid sm:grid-cols-2 gap-6 mb-8">
                 <div className="bg-white rounded-2xl p-6 text-center border-2 border-sage-600">
-                  <p className="text-sm text-sage-600 font-medium mb-1">Subscribe & Save</p>
+                  <p className="text-sm text-sage-600 font-medium mb-1">Abonnement & Économie</p>
                   <p className="text-3xl font-serif font-medium text-charcoal">${price.subscribe}</p>
-                  <p className="text-sm text-charcoal/60 mt-1">per week</p>
-                  <p className="text-xs text-sage-600 mt-2">Save $10 / week</p>
+                  <p className="text-sm text-charcoal/60 mt-1">par semaine</p>
+                  <p className="text-xs text-sage-600 mt-2">Économise 10€ / semaine</p>
                 </div>
                 <div className="bg-white rounded-2xl p-6 text-center border border-primary-200">
-                  <p className="text-sm text-charcoal/60 font-medium mb-1">Pay as you go</p>
+                  <p className="text-sm text-charcoal/60 font-medium mb-1">Paiement à l\'unité</p>
                   <p className="text-3xl font-serif font-medium text-charcoal">${price.payg}</p>
-                  <p className="text-sm text-charcoal/60 mt-1">per week</p>
-                  <p className="text-xs text-charcoal/50 mt-2">Order any week you like</p>
+                  <p className="text-sm text-charcoal/60 mt-1">par semaine</p>
+                  <p className="text-xs text-charcoal/50 mt-2">Commande n\'importe quelle semaine que tu veux</p>
                 </div>
               </div>
 
               <div className="text-sm text-charcoal/70 space-y-2 mb-8">
-                <p>• 3 or 4 mains of your choice from the full menu</p>
-                <p>• 4 sides of your choice</p>
-                <p>• 3 extras: dessert, breakfast item, and snack</p>
-                <p>• Restorative bone broth</p>
-                <p>• Delivered fresh every Tuesday in reusable glass containers</p>
+                <p>• 3 ou 4 plats de ton choix parmi le menu complet</p>
+                <p>• 4 accompagnements de ton choix</p>
+                <p>• 3 extras: dessert, petit-déjeuner, et collation</p>
+                <p>• Bouillon reconstitué</p>
+                <p>• Livré frais chaque mardi dans des contenants en verre réutilisables</p>
               </div>
 
               <p className="text-xs text-charcoal/50 mb-6 text-center">
-                New clients pay a one-time $65 container fee at checkout. Delivery fee $20.
+                Nouveaux clients payent un coût unique de 65€ pour les contenants en verre. Frais de livraison 20€.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -166,10 +166,10 @@ export default function Package() {
                   rel="noopener noreferrer"
                   className="btn-primary text-center"
                 >
-                  Continue to Menu
+                  Continuer vers le menu
                 </a>
                 <Link to="/contact" className="btn-secondary text-center">
-                  Contact us first
+                  Contactez-nous d'abord
                 </Link>
               </div>
             </div>
@@ -180,19 +180,19 @@ export default function Package() {
       {/* FAQ short */}
       <section className="py-16 bg-white">
         <div className="container-narrow max-w-3xl">
-          <h2 className="section-title text-center mb-10">Everything you need to know</h2>
+          <h2 className="section-title text-center mb-10"> Tout ce que tu dois savoir</h2>
           <div className="space-y-6">
             <div>
-              <h4 className="font-medium text-charcoal mb-1">What is included in each delivery?</h4>
-              <p className="text-sm text-charcoal/70">Every delivery includes your choice of mains, sides, and extras. Extras rotate weekly and include a dessert, a breakfast item, and a snack.</p>
+              <h4 className="font-medium text-charcoal mb-1">Qu'est-ce que chaque livraison inclut ?</h4>
+              <p className="text-sm text-charcoal/70">Chaque livraison inclut votre choix de plats, accompagnements, et extras. Les extras tournent chaque semaine et incluent un dessert, un petit-déjeuner, et une collation.</p>
             </div>
             <div>
-              <h4 className="font-medium text-charcoal mb-1">How does the subscription work?</h4>
-              <p className="text-sm text-charcoal/70">When you subscribe, you save $10 every week. Update your meal selection by Thursday midnight or we will choose them for you. Skip or pause anytime with two weeks notice.</p>
+              <h4 className="font-medium text-charcoal mb-1">Comment fonctionne l'abonnement ?</h4>
+              <p className="text-sm text-charcoal/70">Lorsque tu abonnes, tu économises 10€ chaque semaine. Met à jour ton choix de repas par jeudi minuit ou nous choisirons pour toi. Passe ou pause à tout moment avec deux semaines de notice.</p>
             </div>
             <div>
-              <h4 className="font-medium text-charcoal mb-1">What is the $65 container fee?</h4>
-              <p className="text-sm text-charcoal/70">New clients pay a one-time $65 container fee. This covers your set of reusable glass containers. The fee is non-refundable.</p>
+              <h4 className="font-medium text-charcoal mb-1">Quel est le coût de 65€ pour les contenants en verre ?</h4>
+              <p className="text-sm text-charcoal/70">Les nouveaux clients payent un coût unique de 65€ pour les contenants en verre. Cela couvre ton ensemble de contenants en verre réutilisables. Le coût n'est pas remboursable.</p>
             </div>
           </div>
         </div>

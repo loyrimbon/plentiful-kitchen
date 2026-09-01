@@ -1,23 +1,23 @@
 const testimonials = [
   {
-    quote: "Plentiful Kitchen's outstanding meals and kind service helped me feel nourished and empowered, allowing me to stop taking heartburn medicine after a decade of dependency.",
+    quote: "Souad Hezzam est une excellente cuisinière et son service est incroyable. Elle a aidé à me sentir nourrie et en forme, me permettant de cibler une formule qui me convient parfaitement.",
     author: 'Christina T.',
-    location: 'San Francisco',
+    location: 'Strasbourg',
   },
   {
-    quote: "Plentiful Kitchen has brought us joy since our baby was born. Meals support digestion and milk supply in reusable glass containers. Loved every bite daily.",
+    quote: "Souad Hezzam a apporté beaucoup de joie à notre famille depuis la naissance de notre bébé. Les repas sont nourrissants et supportent la digestion et la fourniture de lait dans des contenants réutilisables. On a aimé chaque bouchée quotidiennement.",
     author: 'Eva L.',
-    location: '',
+    location: 'Mundolsheim',
   },
   {
-    quote: "Incredible food, impeccable service, and a fresh menu every week. We did our research, and Plentiful Kitchen was the clear choice for us from the start.",
+    quote: "Repas incroyables, service impeccable, et un menu frais chaque semaine. Nous avons fait notre recherche, et Souad Hezzam était la meilleure option pour nous dès le début.",
     author: 'Eden K.',
-    location: '',
+    location: 'Strasbourg',
   },
   {
-    quote: "As a single mom, Plentiful Kitchen has been a gift. Their nourishing meals save me time and money while helping me be a better mom every single day.",
+    quote: "En tant que maman célibataire, Souad Hezzam a été un cadeau. Leurs repas nourrissants me permettent de gagner du temps et d'argent tout en me permettant de devenir une meilleure maman chaque jour.",
     author: 'Shirley D.',
-    location: '',
+    location: 'Haguenau',
   },
 ]
 
@@ -26,7 +26,7 @@ export default function Testimonials() {
     <section className="py-20 md:py-28 bg-white">
       <div className="container-narrow">
         <div className="text-center mb-14">
-          <h2 className="section-title">What Our Clients Say</h2>
+          <h2 className="section-title">Ce que nos clients disent</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">

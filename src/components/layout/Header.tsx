@@ -18,7 +18,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b border-primary-100">
       <div className="container-narrow flex items-center justify-between h-16 md:h-18">
         <Link to="/" className="font-serif text-xl md:text-2xl font-semibold text-charcoal tracking-tight">
-          Plentiful Kitchen
+          Souad Hezzam
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -36,7 +36,7 @@ export default function Header() {
             </Link>
           ))}
           <Link to="/package" className="btn-primary text-sm py-2.5 px-5">
-            View Menu
+            Voir le menu de cette semaine
           </Link>
         </nav>
 
@@ -69,7 +69,7 @@ export default function Header() {
               className="btn-primary text-center mt-3"
               onClick={() => setOpen(false)}
             >
-              View Menu
+              Voir le menu de cette semaine
             </Link>
           </div>
         </div>

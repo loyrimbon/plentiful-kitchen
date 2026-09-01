@@ -17,8 +17,8 @@ export default function Founder() {
           </p>
 
           <div className="mb-8">
-            <p className="font-serif text-xl text-charcoal">Chef Inbal</p>
-            <p className="text-sm text-charcoal/60">Founder, Plentiful Kitchen</p>
+            <p className="font-serif text-xl text-charcoal">Cheffe Souad</p>
+            <p className="text-sm text-charcoal/60">Founder, Souad Hezzam</p>
           </div>
 
           <Link to="/about" className="btn-secondary">

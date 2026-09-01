@@ -1,23 +1,23 @@
 const steps = [
   {
     number: '1',
-    title: 'Choose Your Plan',
-    description: 'Tell us how many people you are feeding and how many meals you want. We will find the right option for you.',
+    title: 'Choisis ta formule',
+    description: 'Choisis ta formule. Nous te proposons les meilleures options pour toi.',
   },
   {
     number: '2',
-    title: 'Order by Thursday midnight',
-    description: 'Our menu rotates weekly with the best seasonal ingredients. Place your order before the deadline.',
+    title: 'Choisis ta semaine',
+    description: 'Choisis ta semaine. Nous te proposons les meilleures options pour toi.',
   },
   {
     number: '3',
-    title: 'Delivered Every Tuesday',
-    description: 'Fresh, chilled, and ready to eat in glass containers. Simply reheat and enjoy.',
+    title: 'Etape a definir',
+    description: 'Etape a definir. Nous te proposons les meilleures options pour toi.',
   },
   {
     number: '4',
-    title: 'Return Your Containers',
-    description: 'Leave your empty containers out with your next delivery and we collect, wash, and reuse them.',
+    title: 'Etape a definir',
+    description: 'Etape a definir. Nous te proposons les meilleures options pour toi.',
   },
 ]
 
@@ -41,7 +41,7 @@ export default function HowItWorks() {
         </div>
 
         <p className="text-center mt-12 text-sm text-charcoal/60">
-          Skip or pause anytime with two weeks notice.
+          Passe ou pause à tout moment.
         </p>
       </div>
     </section>

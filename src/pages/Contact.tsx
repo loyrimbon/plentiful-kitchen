@@ -68,7 +68,7 @@ export default function Contact() {
         <div className="container-narrow text-center">
           <h1 className="section-title mb-4">Contact Us</h1>
           <p className="section-subtitle mx-auto">
-            We would love to hear from you. Fill out the form and we will get back to you shortly.
+            Nous aimerions vous entendre. Remplis le formulaire et nous vous recontacterons sous peu.
           </p>
         </div>
       </section>
@@ -114,7 +114,7 @@ export default function Contact() {
 
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
-                  <label className="block text-sm font-medium text-charcoal mb-1.5">Phone</label>
+                  <label className="block text-sm font-medium text-charcoal mb-1.5">Téléphone</label>
                   <input
                     name="phone"
                     value={form.phone}
@@ -123,7 +123,7 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-charcoal mb-1.5">Location / Zip</label>
+                  <label className="block text-sm font-medium text-charcoal mb-1.5">Localisation / Code postal</label>
                   <input
                     name="location"
                     value={form.location}
@@ -134,7 +134,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-charcoal mb-1.5">Family size</label>
+                <label className="block text-sm font-medium text-charcoal mb-1.5">Taille de la famille</label>
                 <input
                   name="family_size"
                   value={form.family_size}
@@ -145,7 +145,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-charcoal mb-1.5">Dietary preferences & allergies</label>
+                <label className="block text-sm font-medium text-charcoal mb-1.5"> Préférences alimentaires & allergies</label>
                 <input
                   name="dietary"
                   value={form.dietary}
@@ -155,23 +155,23 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-charcoal mb-1.5">Plan interest</label>
+                <label className="block text-sm font-medium text-charcoal mb-1.5"> Intérêt pour le plan</label>
                 <select
                   name="plan_interest"
                   value={form.plan_interest}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-xl border border-primary-200 focus:border-sage-500 focus:ring-2 focus:ring-sage-200 outline-none transition bg-white"
                 >
-                  <option value="">Select a plan</option>
-                  <option value="Mix and Match">Mix and Match (Veg + Meat)</option>
-                  <option value="Protein Package">Protein Package</option>
-                  <option value="Personal Chef">Personal Chef</option>
-                  <option value="Postpartum Package">Postpartum Package</option>
+                  <option value="">Sélectionner un plan</option>
+                  <option value="Mix and Match"> Mix et Match (Végétarien + Viande)</option>
+                  <option value="Protein Package">Package Protéiné</option>
+                  <option value="Personal Chef">Formule Personnelle</option>
+                  <option value="Postpartum Package">Formule Post-partum</option>
                 </select>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-charcoal mb-1.5">Preferred contact</label>
+                <label className="block text-sm font-medium text-charcoal mb-1.5"> Préférence de contact</label>
                 <div className="flex gap-6 mt-2">
                   <label className="flex items-center gap-2 cursor-pointer">
                     <input
@@ -199,7 +199,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-charcoal mb-1.5">How did you find us?</label>
+                <label className="block text-sm font-medium text-charcoal mb-1.5"> Comment as-tu trouvé notre service ?</label>
                 <input
                   name="source"
                   value={form.source}
@@ -209,7 +209,7 @@ export default function Contact() {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-charcoal mb-1.5">Anything else we should know?</label>
+                <label className="block text-sm font-medium text-charcoal mb-1.5">  Que dirais-tu d'autre que nous devrions savoir ?</label>
                 <textarea
                   name="message"
                   value={form.message}
@@ -221,7 +221,7 @@ export default function Contact() {
 
               {status === 'error' && (
                 <p className="text-red-600 text-sm">
-                  Something went wrong. Please try again or email us directly.
+                  Quelque chose s'est mal passé. Veuillez réessayer ou nous contacter directement par email.
                 </p>
               )}
 
