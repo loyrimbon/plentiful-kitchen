@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import batchCookingImg from '../ui/batch-cooking.jpeg'
 
 export default function Hero() {
   return (
@@ -25,6 +26,20 @@ export default function Hero() {
         <p className="mt-12 text-sm text-charcoal/50">
           Aimé par des centaines de familles
         </p>
+
+        <div className="mt-16 md:mt-20">
+          <p className="text-sage-600 font-medium tracking-widest uppercase text-xs mb-4">
+            De notre cuisine
+          </p>
+          <div className="relative mx-auto max-w-4xl overflow-hidden rounded-2xl md:rounded-3xl shadow-lg aspect-[16/10]">
+            <img
+              src={batchCookingImg}
+              alt="Batch cooking — repas préparés avec des ingrédients frais"
+              className="h-full w-full object-cover"
+              fetchPriority="high"
+            />
+          </div>
+        </div>
       </div>
     </section>
   )

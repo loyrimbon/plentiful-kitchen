@@ -1,3 +1,5 @@
+import batchCookingImg from '../ui/batch-cooking.jpeg'
+
 const features = [
   {
     title: 'Real Ingredients Always',
@@ -28,11 +30,29 @@ export default function WhyUs() {
           </p>
         </div>
 
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-3xl mx-auto">
+          {[1, 2, 3, 4].map((i) => (
+            <div key={i} className="aspect-square overflow-hidden rounded-2xl">
+              <img
+                src={batchCookingImg}
+                alt="Repas préparés — Souad Hezzam"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+          ))}
+        </div>
+
         <div className="grid md:grid-cols-3 gap-10">
           {features.map((feature) => (
             <div key={feature.title} className="text-center md:text-left">
-              <div className="w-12 h-12 rounded-full bg-sage-100 flex items-center justify-center mx-auto md:mx-0 mb-5">
-                <div className="w-3 h-3 rounded-full bg-sage-600" />
+              <div className="w-12 h-12 rounded-full bg-sage-100 flex items-center justify-center mx-auto md:mx-0 mb-5 overflow-hidden">
+                <img
+                  src={batchCookingImg}
+                  alt=""
+                  className="h-full w-full object-cover"
+                  loading="lazy"
+                />
               </div>
               <h3 className="font-serif text-xl font-medium text-charcoal mb-3">{feature.title}</h3>
               <p className="text-charcoal/70 leading-relaxed text-sm md:text-base">
