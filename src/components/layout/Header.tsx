@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
+import LogoSouad from './LogoSouad';
+import souadLogo from '../ui/souad_logo2.jpeg';
 
 const nav = [
   { name: 'Home', path: '/' },
@@ -18,7 +20,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b border-primary-100">
       <div className="container-narrow flex items-center justify-between h-16 md:h-18">
         <Link to="/" className="font-serif text-xl md:text-2xl font-semibold text-charcoal tracking-tight">
-          Souad Hezzam
+         
+          <LogoSouad src={souadLogo} alt="Souad Hezzam" size="50px" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
