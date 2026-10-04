@@ -1,4 +1,3 @@
-import batchCookingImg from '../ui/batch-cooking.jpeg'
 import cupcake from '../ui/cupcake.JPG'
 import fraisier from '../ui/fraisier.JPG'
 import rhubarbe from '../ui/rhubarbe.jpeg'
