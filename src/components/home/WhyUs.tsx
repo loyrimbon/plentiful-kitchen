@@ -1,7 +1,7 @@
 import cupcake from '../ui/cupcake.jpg'
 import fraisier from '../ui/fraisier.jpg'
 import rhubarbe from '../ui/rhubarbe.jpeg'
-import parisbrest from '../ui/parisbrest.jpeg'
+//import parisbrest from '../ui/parisbrest.jpeg'
 import tarte from '../ui/tarte.jpeg'
 import mignardise from '../ui/mignardise.jpeg'
 
@@ -65,7 +65,7 @@ export default function WhyUs() {
             </div>
             <div className="aspect-square overflow-hidden rounded-2xl">
               <img
-                src={parisbrest}
+                src={tarte}
                 alt="Repas préparés — Souad Hezzam"
                 className="h-full w-full object-cover"
                 loading="lazy"
