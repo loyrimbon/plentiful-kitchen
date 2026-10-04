@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import batchCookingImg from '../ui/batch-cooking.jpeg'
 
+
 export default function Hero() {
   return (
     <section className="relative py-20 md:py-32 overflow-hidden">

@@ -1,4 +1,10 @@
 import batchCookingImg from '../ui/batch-cooking.jpeg'
+import cupcake from '../ui/cupcake.JPG'
+import fraisier from '../ui/fraisier.JPG'
+import rhubarbe from '../ui/rhubarbe.jpeg'
+import parisbrest from '../ui/parisbrest.JPEG'
+import tarte from '../ui/tarte.jpeg'
+import mignardise from '../ui/mignardise.jpeg'
 
 const features = [
   {
@@ -31,16 +37,49 @@ export default function WhyUs() {
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16 max-w-3xl mx-auto">
-          {[1, 2, 3, 4].map((i) => (
+          {[1].map((i) => (
             <div key={i} className="aspect-square overflow-hidden rounded-2xl">
               <img
-                src={batchCookingImg}
+                src={cupcake}
                 alt="Repas préparés — Souad Hezzam"
                 className="h-full w-full object-cover"
                 loading="lazy"
               />
             </div>
+            
           ))}
+            <div className="aspect-square overflow-hidden rounded-2xl">
+              <img
+                src={rhubarbe}
+                alt="Repas préparés — Souad Hezzam"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-2xl">
+              <img
+                src={tarte}
+                alt="Repas préparés — Souad Hezzam"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-2xl">
+              <img
+                src={parisbrest}
+                alt="Repas préparés — Souad Hezzam"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-2xl">
+              <img
+                src={mignardise}
+                alt="Repas préparés — Souad Hezzam"
+                className="h-full w-full object-cover"
+                loading="lazy"
+              />
+            </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-10">
@@ -48,7 +87,7 @@ export default function WhyUs() {
             <div key={feature.title} className="text-center md:text-left">
               <div className="w-12 h-12 rounded-full bg-sage-100 flex items-center justify-center mx-auto md:mx-0 mb-5 overflow-hidden">
                 <img
-                  src={batchCookingImg}
+                  src={fraisier}
                   alt=""
                   className="h-full w-full object-cover"
                   loading="lazy"
