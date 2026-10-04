@@ -1,7 +1,7 @@
-import cupcake from '../ui/cupcake.JPG'
-import fraisier from '../ui/fraisier.JPG'
+import cupcake from '../ui/cupcake.jpg'
+import fraisier from '../ui/fraisier.jpg'
 import rhubarbe from '../ui/rhubarbe.jpeg'
-import parisbrest from '../ui/parisbrest.JPEG'
+import parisbrest from '../ui/parisbrest.jpeg'
 import tarte from '../ui/tarte.jpeg'
 import mignardise from '../ui/mignardise.jpeg'
 
