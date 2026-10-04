@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-charcoal text-white/80 py-16">
       <div className="container-narrow grid grid-cols-1 md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <h3 className="font-serif text-2xl text-white mb-4">Plentiful Kitchen</h3>
+          <h3 className="font-serif text-2xl text-white mb-4">SEZAM</h3>
           <p className="text-sm leading-relaxed max-w-md text-white/70">
             Nourriture nutritive, organique cuisinée chaque semaine à Strasbourg et alentours.
           </p>

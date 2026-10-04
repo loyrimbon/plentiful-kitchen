@@ -5,6 +5,7 @@ import Package from './pages/Package'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Postpartum from './pages/Postpartum'
+import Services from './pages/Services'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="postpartum" element={<Postpartum />} />
+        <Route path="services" element={<Services />} />
       </Route>
     </Routes>
   )

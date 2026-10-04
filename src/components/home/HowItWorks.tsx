@@ -26,8 +26,8 @@ export default function HowItWorks() {
     <section className="py-20 md:py-28">
       <div className="container-narrow">
         <div className="text-center mb-16">
-          <p className="text-sage-600 font-medium tracking-widest uppercase text-xs mb-3">Simple By Design</p>
-          <h2 className="section-title">How It Works</h2>
+          <p className="text-sage-600 font-medium tracking-widest uppercase text-xs mb-3">Simple par essence</p>
+          <h2 className="section-title">Comment ça fonctionne</h2>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">

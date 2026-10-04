@@ -2,17 +2,17 @@ import batchCookingImg from '../ui/batch-cooking.jpeg'
 
 const features = [
   {
-    title: 'Real Ingredients Always',
+    title: 'Ingrédients de saisons',
     description:
-      'Chaque repas commence avec des ingrédients organiques et de saisons. Nous cuisons exclusivement avec de l\'huile d\'avocat et de l\'huile d\'olive extra vierge pressée à froid. BLABLABLABLA Pas d\'huiles de semences, jamais. Les viandes sont grasses & finies, les poissons sont capturés en mer, les produits locaux.',
+      'Chaque repas commence avec des ingrédients organiques et de saisons. BLABLABLABLA .',
   },
   {
-    title: 'Seulement des contenants en verre. Pas de plastique nulle part',
+    title: 'Exemple d\'argument : Seulement des contenants en verre. Pas de plastique nulle part',
     description:
       'Cuisiner dans du plastique libère des microplastiques. Nous livrons dans des contenants en verre réutilisables car c\'est mieux pour vos hormones, mieux pour la planète, et la nourriture a simplement mieux goût.',
   },
   {
-    title: 'Nourriture nutritive par définition',
+    title: 'Exemple d\'argument : Nourriture nutritive par définition',
     description:
       'Chaque repas est construit autour d\'ingrédients réels, nutritifs et denses qui soutiennent votre énergie et vous gardent en forme. Une nourriture propre et délicieuse.',
   },
@@ -23,8 +23,8 @@ export default function WhyUs() {
     <section className="py-20 md:py-28 bg-white">
       <div className="container-narrow">
         <div className="text-center mb-16">
-          <p className="text-sage-600 font-medium tracking-widest uppercase text-xs mb-3">Our Difference</p>
-          <h2 className="section-title">Pourquoi Souad Hezzam</h2>
+          <p className="text-sage-600 font-medium tracking-widest uppercase text-xs mb-3">Notre Différence</p>
+          <h2 className="section-title">Pourquoi SEZAM</h2>
           <p className="section-subtitle mx-auto">
             Repas nutritifs qui te permettent d'avancer
           </p>

@@ -8,11 +8,11 @@ interface LogoSouadProps {
 }
 
 // 2. Application du type au composant
-function LogoSouad({ src, alt, size = '150px' }: LogoSouadProps) {
+function LogoSouad({ src, alt, size = '50px' }: LogoSouadProps) {
   const imageStyle: React.CSSProperties = {
     width: size,
     height: size,
-    borderRadius: '50%',
+    borderRadius: '60%',
     objectFit: 'cover',
   };
 

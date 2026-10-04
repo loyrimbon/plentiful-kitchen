@@ -10,6 +10,7 @@ const nav = [
   { name: 'About', path: '/about' },
   { name: 'Postpartum', path: '/postpartum' },
   { name: 'Contact', path: '/contact' },
+  { name: 'Services', path: '/services' },
 ]
 
 export default function Header() {
@@ -17,12 +18,14 @@ export default function Header() {
   const location = useLocation()
 
   return (
-    <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-md border-b border-primary-100">
-      <div className="container-narrow flex items-center justify-between h-16 md:h-18">
+    <header className="sticky top-200 z-50 bg-cream/95 backdrop-blur-md border-b border-primary-100">
+      <div className="container-narrow flex items-center justify-between h-16 md:h-18 mt-3">
+       
         <Link to="/" className="font-serif text-xl md:text-2xl font-semibold text-charcoal tracking-tight">
-         
-          <LogoSouad src={souadLogo} alt="Souad Hezzam" size="50px" />
-        </Link>
+          <LogoSouad src={souadLogo} alt="Souad Hezzam" size="80px" />
+          
+        </Link> 
+
 
         <nav className="hidden md:flex items-center gap-8">
           {nav.map((item) => (
